@@ -17,4 +17,8 @@ html, body {
  .myLists{
    border-style: dashed;
    border-color: blue;
+   color: darkgreen;
+ }
+ #unique{
+   color: darkblue;
  }
