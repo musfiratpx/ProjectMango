@@ -5,20 +5,20 @@ html, body {
   height: 100vh; /* page to takes up the full screen height */
 }
 
- .myLists li{ /* access myLists class, but specifically the bullets (list)*/
-  list-style-type: none;
-  padding-left: 20px;
-  background-image: url('kirby.png');
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: 20px;
-  background-color: lavender;
- }
- .myLists{
-   border-style: dashed;
-   border-color: blue;
-   color: darkgreen;
- }
- #unique{
-   color: darkblue;
- }
+div{ /* selector */
+  border-color: blue;
+  border-style: dashed;
+}
+
+h1{ /*selector */
+  color: magenta;
+}
+
+#makeThisRed{ 
+  color: rgb(255,0,0);
+}
+
+#makeThisPink{
+  border-color: salmon;
+  border-style: solid;
+}
