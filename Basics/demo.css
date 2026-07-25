@@ -5,9 +5,22 @@ html, body {
   height: 100vh; /* page to takes up the full screen height */
 }
 
-div{ /* selector */
+body{
+  background-image: url("background.jpg");
+
+}
+
+#intro{ /* selector */
   border-color: blue;
   border-style: dashed;
+}
+/*margin means space around the box. you can specify what space you want: margin-top, etc
+padding means space inside the box. you can also specifiy what space you want. */
+
+#listbox{ /* selector */
+  border-color: rgb(61, 1, 79);
+  border-style: solid;
+  margin-top: 5px;
 }
 
 h1{ /*selector */
@@ -18,8 +31,13 @@ h1{ /*selector */
   color: rgb(255,0,0);
 }
 
-#makeThisPink{
-  border-color: salmon;
+#makeThisPink{/* this is my divider, but i gave it a unique id. */
+  border-color: deeppink;
   border-style: solid;
+  height: 55px;
+  width: 55px;
+  padding-top: 10px;
+  margin-top: 15px;
+  background-color: cyan;
 
 }
